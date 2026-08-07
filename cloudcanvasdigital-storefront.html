@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CloudCanvas Digital | 119 Premium Digital Products</title>
+<meta name="description" content="CloudCanvas Digital — Premium ATS-optimized resume systems, AI toolkits, automation blueprints, and digital products for South Asian & Gulf professionals. 119+ products. Instant download." />
+<meta name="author" content="CloudCanvas Digital" />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#070b14" />
+<link rel="canonical" href="https://YOURUSERNAME.github.io/cloudcanvasdigital/" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="CloudCanvas Digital | 119 Premium Digital Products" />
+<meta property="og:description" content="Premium ATS resumes, AI tools, automation systems & digital products trusted by 5,000+ professionals across Pakistan, India, UAE & Saudi Arabia." />
+<meta property="og:image" content="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&h=630&fit=crop" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="CloudCanvas Digital | 119 Premium Digital Products" />
+<meta name="twitter:description" content="Premium career systems, AI tools & digital products for South Asian & Gulf professionals." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+<style>
+  :root {
+    --bg: #070b14;
+    --bg2: #0c1220;
+    --card: rgba(255,255,255,0.035);
+    --card-hover: rgba(255,255,255,0.06);
+    --text: #eef2ff;
+    --muted: #8b9bb8;
+    --line: rgba(255,255,255,0.08);
+    --accent: #6d7cff;
+    --accent2: #a855f7;
+    --accent3: #22d3ee;
+    --success: #34d399;
+    --radius: 20px;
+    --shadow: 0 20px 50px rgba(0,0,0,0.4);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: Inter, system-ui, -apple-system, sans-serif;
+    background: 
+      radial-gradient(ellipse 80% 50% at 20% -10%, rgba(109,124,255,0.15), transparent),
+      radial-gradient(ellipse 60% 40% at 85% 0%, rgba(168,85,247,0.1), transparent),
+      linear-gradient(180deg, #070b14 0%, #0a101c 100%);
+    color: var(--text);
+    line-height: 1.55;
+    min-height: 100vh;
+  }
+
+  a { color: inherit; text-decoration: none; }
+  .wrap { width: min(1200px, calc(100% - 32px)); margin: 0 auto; }
+
+  /* Network Bar */
+  .network-bar {
+    background: linear-gradient(90deg, #6366f1, #8b5cf6);
+    padding: 10px 16px;
+    text-align: center;
+    font-size: 12.5px;
+    font-weight: 600;
+  }
+  .network-bar a {
+    color: #fff;
+    margin: 0 10px;
+    opacity: 0.9;
+  }
+  .network-bar a:hover { opacity: 1; }
+  .network-bar .gum {
+    background: rgba(255,255,255,0.18);
+    padding: 3px 12px;
+    border-radius: 20px;
+  }
+
+  /* Top Nav */
+  .topbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(20px);
+    background: rgba(7,11,20,0.85);
+    border-bottom: 1px solid var(--line);
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+    gap: 16px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 800;
+    font-size: 1.15rem;
+    letter-spacing: -0.03em;
+  }
+  .brand-mark {
+    width: 38px;
+    height: 38px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    box-shadow: 0 8px 24px rgba(109,124,255,0.3);
+  }
+  .nav-links {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+  }
+  .nav-links a {
+    color: var(--muted);
+    font-weight: 600;
+    font-size: 0.92rem;
+  }
+  .nav-links a:hover { color: var(--text); }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 18px;
+    border-radius: 12px;
+    border: 1px solid var(--line);
+    background: rgba(255,255,255,0.03);
+    font-weight: 700;
+    font-size: 0.92rem;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+  .btn:hover {
+    transform: translateY(-2px);
+    background: rgba(255,255,255,0.06);
+  }
+  .btn-primary {
+    border: none;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    color: #fff;
+    box-shadow: 0 10px 28px rgba(109,124,255,0.3);
+  }
+  .btn-primary:hover {
+    box-shadow: 0 14px 36px rgba(109,124,255,0.4);
+  }
+
+  /* Hero */
+  .hero {
+    padding: 56px 0 32px;
+  }
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 28px;
+    align-items: center;
+  }
+  .panel {
+    background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 36px;
+    position: relative;
+    overflow: hidden;
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 14px;
+    border-radius: 999px;
+    background: rgba(52,211,153,0.1);
+    border: 1px solid rgba(52,211,153,0.2);
+    color: #a7f3d0;
+    font-size: 0.82rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
+  .pulse {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--success);
+    animation: pulse 1.8s infinite;
+  }
+  @keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(52,211,153,0.5); }
+    70% { box-shadow: 0 0 0 10px rgba(52,211,153,0); }
+    100% { box-shadow: 0 0 0 0 rgba(52,211,153,0); }
+  }
+  h1 {
+    font-size: clamp(2.1rem, 5vw, 3.4rem);
+    line-height: 1.08;
+    letter-spacing: -0.04em;
+    margin-bottom: 16px;
+    font-weight: 900;
+  }
+  .grad {
+    background: linear-gradient(135deg, #e0e7ff, #a855f7 45%, #22d3ee);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .lead {
+    color: var(--muted);
+    font-size: 1.05rem;
+    max-width: 52ch;
+    margin-bottom: 28px;
+  }
+  .actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 28px;
+  }
+  .stat-mini {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 14px;
+  }
+  .stat-mini strong {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 800;
+  }
+  .stat-mini span {
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+
+  .side-cards {
+    display: grid;
+    gap: 14px;
+  }
+  .side-card {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 20px;
+  }
+  .side-card h3 {
+    font-size: 1rem;
+    margin-bottom: 6px;
+  }
+  .side-card p {
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  /* Section */
+  .section {
+    padding: 40px 0;
+  }
+  .section-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 16px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .section-head h2 {
+    font-size: clamp(1.5rem, 3vw, 2.1rem);
+    letter-spacing: -0.03em;
+  }
+  .section-head p {
+    color: var(--muted);
+    max-width: 50ch;
+  }
+
+  /* Toolbar */
+  .toolbar {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+  .toolbar input,
+  .toolbar select {
+    width: 100%;
+    padding: 13px 16px;
+    border-radius: 12px;
+    border: 1px solid var(--line);
+    background: rgba(255,255,255,0.03);
+    color: var(--text);
+    font: inherit;
+    outline: none;
+  }
+  .toolbar input:focus,
+  .toolbar select:focus {
+    border-color: rgba(109,124,255,0.5);
+  }
+  .toolbar input::placeholder { color: #64748b; }
+
+  .chips {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 22px;
+  }
+  .chip {
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: rgba(255,255,255,0.03);
+    color: var(--muted);
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.15s;
+  }
+  .chip:hover,
+  .chip.active {
+    background: rgba(109,124,255,0.18);
+    color: #fff;
+    border-color: rgba(109,124,255,0.4);
+  }
+
+  /* Product Grid */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  .product {
+    background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: 0.2s ease;
+    min-height: 100%;
+  }
+  .product:hover {
+    transform: translateY(-4px);
+    background: var(--card-hover);
+    border-color: rgba(109,124,255,0.25);
+  }
+  .meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+  }
+  .pill {
+    font-size: 0.72rem;
+    font-weight: 800;
+    padding: 5px 10px;
+    border-radius: 999px;
+    background: rgba(109,124,255,0.15);
+    color: #c7d2fe;
+  }
+  .pill.featured {
+    background: linear-gradient(135deg, rgba(109,124,255,0.3), rgba(168,85,247,0.25));
+  }
+  .tag {
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.04);
+    color: var(--muted);
+    border: 1px solid var(--line);
+  }
+  .product h3 {
+    font-size: 1.02rem;
+    line-height: 1.35;
+    font-weight: 700;
+  }
+  .product p {
+    color: var(--muted);
+    font-size: 0.9rem;
+    flex-grow: 1;
+  }
+  .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding-top: 4px;
+  }
+  .price {
+    font-weight: 800;
+    font-size: 0.95rem;
+  }
+
+  /* Featured special */
+  .featured-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    margin-bottom: 40px;
+  }
+  .featured-card {
+    background: linear-gradient(160deg, rgba(109,124,255,0.12), rgba(168,85,247,0.08));
+    border: 1px solid rgba(109,124,255,0.25);
+    border-radius: 18px;
+    padding: 22px;
+    position: relative;
+  }
+  .featured-card .badge-top {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: 0.7rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 999px;
+  }
+  .featured-card h3 {
+    font-size: 1.05rem;
+    margin: 8px 0 8px;
+  }
+  .featured-card p {
+    color: var(--muted);
+    font-size: 0.88rem;
+    margin-bottom: 16px;
+  }
+
+  /* Footer */
+  .footer {
+    border-top: 1px solid var(--line);
+    padding: 48px 0 60px;
+    margin-top: 40px;
+  }
+  .foot-grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr 1fr;
+    gap: 28px;
+  }
+  .foot-grid h4 {
+    font-size: 0.9rem;
+    margin-bottom: 14px;
+    color: var(--text);
+  }
+  .foot-grid a, .foot-grid p {
+    color: var(--muted);
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 8px;
+  }
+  .foot-grid a:hover { color: var(--text); }
+  .copyright {
+    margin-top: 36px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .backtop {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: none;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 10px 28px rgba(109,124,255,0.35);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+    z-index: 50;
+  }
+  .backtop.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .empty {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 48px;
+    color: var(--muted);
+  }
+
+  /* Responsive */
+  @media (max-width: 1024px) {
+    .hero-grid, .grid, .featured-grid, .foot-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (max-width: 720px) {
+    .hero-grid, .grid, .featured-grid, .foot-grid, .toolbar, .hero-stats {
+      grid-template-columns: 1fr;
+    }
+    .nav-links { display: none; }
+    .panel { padding: 24px; }
+    .actions .btn { width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Network Bar -->
+<div class="network-bar">
+  <span style="opacity:0.8">CloudCanvas Network:</span>
+  <a href="https://cloudcanvasdigital.blogspot.com/">🏠 Store</a>
+  <a href="https://cloudcanvasdigital.netlify.app/">🤖 Prompts</a>
+  <a href="https://promptenhancer-50h.pages.dev/">⚡ Enhancer</a>
+  <a class="gum" href="https://cloudcanvasdigital.gumroad.com/" target="_blank" rel="noopener">🛒 Gumroad</a>
+</div>
+
+<!-- Sticky Nav -->
+<div class="topbar">
+  <div class="wrap nav">
+    <a class="brand" href="#top">
+      <div class="brand-mark"></div>
+      <span>CloudCanvas Digital</span>
+    </a>
+    <div class="nav-links">
+      <a href="#featured">Featured</a>
+      <a href="#browse">Browse</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <a class="btn btn-primary" href="https://cloudcanvasdigital.gumroad.com/" target="_blank" rel="noopener">Open Full Store</a>
+  </div>
+</div>
+
+<main class="wrap" id="top">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="panel">
+        <div class="badge"><span class="pulse"></span> 119 products live</div>
+        <h1>Premium <span class="grad">digital systems</span> for careers, AI & growth</h1>
+        <p class="lead">
+          ATS-optimized resumes, AI automation blueprints, faceless YouTube kits, and productivity tools built for South Asian & Gulf professionals.
+        </p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#browse">Browse All Products</a>
+          <a class="btn" href="#featured">View Bestsellers</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-mini"><strong>119</strong><span>Products</span></div>
+          <div class="stat-mini"><strong>5,000+</strong><span>Customers</span></div>
+          <div class="stat-mini"><strong>9</strong><span>Categories</span></div>
+        </div>
+      </div>
+      <div class="side-cards">
+        <div class="side-card">
+          <h3>Built for real results</h3>
+          <p>Job seekers, freelancers, creators and solopreneurs across Pakistan, India, UAE & Saudi Arabia.</p>
+        </div>
+        <div class="side-card">
+          <h3>Instant delivery</h3>
+          <p>Buy on Gumroad → download immediately. Lifetime updates on most products.</p>
+        </div>
+        <div class="side-card">
+          <h3>Conversion path</h3>
+          <p>Search or filter → open product → direct Gumroad checkout.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured -->
+  <section class="section" id="featured">
+    <div class="section-head">
+      <div>
+        <h2>Featured Bestsellers</h2>
+        <p>Highest-converting products right now.</p>
+      </div>
+    </div>
+    <div class="featured-grid">
+      <div class="featured-card">
+        <span class="badge-top">BESTSELLER</span>
+        <h3>Resumeforge Mega Pack</h3>
+        <p>Complete ATS resume ecosystem for professionals.</p>
+        <a class="btn btn-primary" href="https://cloudcanvasdigital.gumroad.com/l/resumeforge-mega-pack" target="_blank" rel="noopener" style="width:100%">Get Access — $47</a>
+      </div>
+      <div class="featured-card">
+        <span class="badge-top">TOP RATED</span>
+        <h3>AI Automation Agency Blueprint</h3>
+        <p>Full system to launch an AI automation agency.</p>
+        <a class="btn btn-primary" href="https://cloudcanvasdigital.gumroad.com/l/ai-automation-agency-blueprint" target="_blank" rel="noopener" style="width:100%">Get Access — $97</a>
+      </div>
+      <div class="featured-card">
+        <span class="badge-top">PREMIUM</span>
+        <h3>Digital Empire Blueprint</h3>
+        <p>Scale digital products into a real business.</p>
+        <a class="btn btn-primary" href="https://cloudcanvasdigital.gumroad.com/l/digital-empire-blueprint" target="_blank" rel="noopener" style="width:100%">Get Access — $147</a>
+      </div>
+      <div class="featured-card">
+        <span class="badge-top">POPULAR</span>
+        <h3>Etsy Seller Complete Launch Kit</h3>
+        <p>Everything needed to start selling on Etsy.</p>
+        <a class="btn btn-primary" href="https://cloudcanvasdigital.gumroad.com/l/etsy-seller-complete-launch-kit" target="_blank" rel="noopener" style="width:100%">Get Access — $25</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Browse -->
+  <section class="section" id="browse">
+    <div class="section-head">
+      <div>
+        <h2>Browse All Products</h2>
+        <p>Search or filter by category. Every button goes straight to Gumroad.</p>
+      </div>
+    </div>
+
+    <div class="toolbar">
+      <input type="text" id="search" placeholder="Search products, niches, tools..." />
+      <select id="sort">
+        <option value="featured">Featured first</option>
+        <option value="az">A → Z</option>
+        <option value="za">Z → A</option>
+      </select>
+    </div>
+
+    <div class="chips" id="chips">
+      <button class="chip active" data-filter="all">All</button>
+      <button class="chip" data-filter="Career">Career</button>
+      <button class="chip" data-filter="Business">Business</button>
+      <button class="chip" data-filter="Tools">Tools</button>
+      <button class="chip" data-filter="AI">AI</button>
+      <button class="chip" data-filter="Design">Design</button>
+      <button class="chip" data-filter="Productivity">Productivity</button>
+      <button class="chip" data-filter="YouTube">YouTube</button>
+      <button class="chip" data-filter="E-Commerce">E-Commerce</button>
+      <button class="chip" data-filter="Automation">Automation</button>
+    </div>
+
+    <div class="grid" id="results"></div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="section-head">
+      <div>
+        <h2>Frequently Asked Questions</h2>
+      </div>
+    </div>
+    <div class="grid" style="grid-template-columns:1fr 1fr">
+      <div class="product">
+        <h3>How do I get the files?</h3>
+        <p>All products are delivered instantly via Gumroad after purchase. You also keep access in your Gumroad library forever.</p>
+      </div>
+      <div class="product">
+        <h3>Are the resumes ATS-friendly?</h3>
+        <p>Yes. ResumeForge systems are engineered to pass major Applicant Tracking Systems used in the Gulf and South Asia.</p>
+      </div>
+      <div class="product">
+        <h3>Do I get updates?</h3>
+        <p>Most products include lifetime free updates. Existing customers receive new versions at no extra cost.</p>
+      </div>
+      <div class="product">
+        <h3>Can I use these commercially?</h3>
+        <p>Yes for client work and your own business. Reselling the raw files as your own product is not allowed.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="brand" style="margin-bottom:12px">
+          <div class="brand-mark"></div>
+          <span>CloudCanvas Digital</span>
+        </div>
+        <p>Premium career systems, AI toolkits and digital products built for ambitious professionals across South Asia and the Gulf.</p>
+      </div>
+      <div>
+        <h4>Products</h4>
+        <a href="#browse">All Products</a>
+        <a href="#featured">Bestsellers</a>
+        <a href="https://cloudcanvasdigital.gumroad.com/" target="_blank" rel="noopener">Gumroad Store</a>
+      </div>
+      <div>
+        <h4>Network</h4>
+        <a href="https://cloudcanvasdigital.blogspot.com/">Blog / Store</a>
+        <a href="https://cloudcanvasdigital.netlify.app/">Prompt Library</a>
+        <a href="https://promptenhancer-50h.pages.dev/">Prompt Enhancer</a>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <a href="#faq">FAQ</a>
+        <a href="https://cloudcanvasdigital.gumroad.com/" target="_blank" rel="noopener">Contact via Gumroad</a>
+      </div>
+    </div>
+    <div class="copyright">
+      <span>© 2026 CloudCanvas Digital. All rights reserved.</span>
+      <span>119 Products · Instant Download · Lifetime Updates</span>
+    </div>
+  </div>
+</footer>
+
+<button class="backtop" id="backtop" aria-label="Back to top">↑</button>
+
+<script>
+const PRODUCTS = [
+  // Career
+  {name:"Marketing Resume Templates", url:"https://cloudcanvasdigital.gumroad.com/l/Marketing-resume-templates", category:"Career", badge:"New"},
+  {name:"Resumeforge Creative Templates", url:"https://cloudcanvasdigital.gumroad.com/l/Resumeforge-creative-templates", category:"Career", badge:"New"},
+  {name:"Resumeforge Executive Templates", url:"https://cloudcanvasdigital.gumroad.com/l/resumeforge-executive-templates", category:"Career", badge:"New"},
+  {name:"Resumeforge Finance Templates", url:"https://cloudcanvasdigital.gumroad.com/l/resumeforge-finance-templates", category:"Career", badge:"New"},
+  {name:"Resumeforge Healthcare Templates", url:"https://cloudcanvasdigital.gumroad.com/l/resumeforge-healthcare-templates", category:"Career", badge:"New"},
+  {name:"Resumeforge Mega Pack", url:"https://cloudcanvasdigital.gumroad.com/l/resumeforge-mega-pack", category:"Career", badge:"Featured"},
+  {name:"Resumeforge Professional Bundle", url:"https://cloudcanvasdigital.gumroad.com/l/resumeforge-professional-bundle", category:"Career", badge:"Featured"},
+  {name:"Resumeforge Sales Templates", url:"https://cloudcanvasdigital.gumroad.com/l/resumeforge-sales-templates", category:"Career", badge:"New"},
+  {name:"Resumeforge Tech Creative Bundle", url:"https://cloudcanvasdigital.gumroad.com/l/resumeforge-tech-creative-bundle", category:"Career", badge:"New"},
+  {name:"Resumeforge Tech Templates", url:"https://cloudcanvasdigital.gumroad.com/l/resumeforge-tech-templates", category:"Career", badge:"New"},
+  {name:"South Asia Resume Kit", url:"https://cloudcanvasdigital.gumroad.com/l/SouthAsiaResumeKit", category:"Career", badge:"Featured"},
+  {name:"30Day Job Search Planner", url:"https://cloudcanvasdigital.gumroad.com/l/30day-job-search-planner", category:"Career", badge:"New"},
+  {name:"Ats Keyword Cheatsheet", url:"https://cloudcanvasdigital.gumroad.com/l/ats-keyword-cheatsheet", category:"Career", badge:"New"},
+  {name:"Ats Master Resume Score Checker Pro", url:"https://cloudcanvasdigital.gumroad.com/l/ats-master-resume-score-checker-pro", category:"Career", badge:"Featured"},
+  {name:"Cover Letter Template Single", url:"https://cloudcanvasdigital.gumroad.com/l/cover-letter-template-single", category:"Career", badge:"New"},
+  {name:"Interview Prep Cheatsheet", url:"https://cloudcanvasdigital.gumroad.com/l/interview-prep-cheatsheet", category:"Career", badge:"New"},
+  {name:"Interview Thankyou Emails", url:"https://cloudcanvasdigital.gumroad.com/l/interview-thankyou-emails", category:"Career", badge:"New"},
+  {name:"Job Application Tracker", url:"https://cloudcanvasdigital.gumroad.com/l/job-application-tracker", category:"Career", badge:"New"},
+  {name:"Linkedin Summary Templates", url:"https://cloudcanvasdigital.gumroad.com/l/linkedin-summary-templates", category:"Career", badge:"New"},
+  {name:"Reference Letter Templates", url:"https://cloudcanvasdigital.gumroad.com/l/reference-letter-templates", category:"Career", badge:"New"},
+  {name:"Remote Job Board Vault", url:"https://cloudcanvasdigital.gumroad.com/l/remote-job-board-vault", category:"Career", badge:"New"},
+  {name:"Resume Bullets Pack", url:"https://cloudcanvasdigital.gumroad.com/l/resume-bullets-pack", category:"Career", badge:"New"},
+  {name:"Resumeforge Business Essentials", url:"https://cloudcanvasdigital.gumroad.com/l/resumeforge-business-essentials", category:"Career", badge:"New"},
+  {name:"Resumeforge Consulting Templates", url:"https://cloudcanvasdigital.gumroad.com/l/resumeforge-consulting-templates", category:"Career", badge:"New"},
+  {name:"Resumeforge Legal Templates", url:"https://cloudcanvasdigital.gumroad.com/l/resumeforge-legal-templates", category:"Career", badge:"New"},
+  {name:"Salary Negotiation Emails", url:"https://cloudcanvasdigital.gumroad.com/l/salary-negotiation-emails", category:"Career", badge:"New"},
+
+  // Business
+  {name:"365 Social Media Calendar", url:"https://cloudcanvasdigital.gumroad.com/l/365-social-media-calendar", category:"Business", badge:"Featured"},
+  {name:"365 Linkedin Posts Year Of Content", url:"https://cloudcanvasdigital.gumroad.com/l/365-linkedin-posts-year-of-content", category:"Business", badge:"New"},
+  {name:"Affiliate Link Cloaker Tracker", url:"https://cloudcanvasdigital.gumroad.com/l/affiliate-link-cloaker-tracker", category:"Business", badge:"New"},
+  {name:"Business Pro Bundle", url:"https://cloudcanvasdigital.gumroad.com/l/business-pro-bundle", category:"Business", badge:"New"},
+  {name:"Command Center Directory", url:"https://cloudcanvasdigital.gumroad.com/l/command-center-directory", category:"Business", badge:"New"},
+  {name:"Newsletter Sponsorship Command Center", url:"https://cloudcanvasdigital.gumroad.com/l/newsletter-sponsorship-command-center", category:"Business", badge:"New"},
+  {name:"Personal Brand Growth Os", url:"https://cloudcanvasdigital.gumroad.com/l/personal-brand-growth-os", category:"Business", badge:"New"},
+  {name:"Seo Generator", url:"https://cloudcanvasdigital.gumroad.com/l/seo-generator", category:"Business", badge:"New"},
+  {name:"Seo Power Vault Keywords Brief Generator", url:"https://cloudcanvasdigital.gumroad.com/l/seo-power-vault-keywords-brief-generator", category:"Business", badge:"New"},
+  {name:"1 Person Newsletter Business Course", url:"https://cloudcanvasdigital.gumroad.com/l/1-person-newsletter-business-course", category:"Business", badge:"New"},
+  {name:"1000 Grants Scholarships Startup Funds Db", url:"https://cloudcanvasdigital.gumroad.com/l/1000-grants-scholarships-startup-funds-db", category:"Business", badge:"New"},
+  {name:"200 Email Newsletter Issues Saas Ready", url:"https://cloudcanvasdigital.gumroad.com/l/200-email-newsletter-issues-saas-ready", category:"Business", badge:"New"},
+  {name:"500 Cold Email Templates Mega Vault", url:"https://cloudcanvasdigital.gumroad.com/l/500-cold-email-templates-mega-vault", category:"Business", badge:"Featured"},
+  {name:"Coach Consultant Brand In A Box", url:"https://cloudcanvasdigital.gumroad.com/l/coach-consultant-brand-in-a-box", category:"Business", badge:"New"},
+  {name:"Digital Empire Blueprint", url:"https://cloudcanvasdigital.gumroad.com/l/digital-empire-blueprint", category:"Business", badge:"Featured"},
+  {name:"Digital Product Ideas Validated Database", url:"https://cloudcanvasdigital.gumroad.com/l/digital-product-ideas-validated-database", category:"Business", badge:"Featured"},
+  {name:"Gumroad 10k Playbook", url:"https://cloudcanvasdigital.gumroad.com/l/gumroad-10k-playbook", category:"Business", badge:"Featured"},
+  {name:"High Cpc Affiliate Niches Database", url:"https://cloudcanvasdigital.gumroad.com/l/high-cpc-affiliate-niches-database", category:"Business", badge:"New"},
+  {name:"Newsletter Launch Kit Saas Ready", url:"https://cloudcanvasdigital.gumroad.com/l/newsletter-launch-kit-saas-ready", category:"Business", badge:"Featured"},
+  {name:"Pinterest Digital Product Sellers", url:"https://cloudcanvasdigital.gumroad.com/l/pinterest-digital-product-sellers", category:"Business", badge:"Featured"},
+  {name:"Pinterest Pin Copy Formulas Seo", url:"https://cloudcanvasdigital.gumroad.com/l/pinterest-pin-copy-formulas-seo", category:"Business", badge:"New"},
+  {name:"Podcast Launch System Zero To Published", url:"https://cloudcanvasdigital.gumroad.com/l/podcast-launch-system-zero-to-published", category:"Business", badge:"New"},
+  {name:"Ai Keyword Research Seo Tool", url:"https://cloudcanvasdigital.gumroad.com/l/ai-keyword-research-seo-tool", category:"Business", badge:"New"},
+
+  // Tools
+  {name:"Agency Freelancer Price Calculator Pro", url:"https://cloudcanvasdigital.gumroad.com/l/agency-freelancer-price-calculator-pro", category:"Tools", badge:"New"},
+  {name:"Budget Expense Tracker App", url:"https://cloudcanvasdigital.gumroad.com/l/budget-expense-tracker-app", category:"Tools", badge:"New"},
+  {name:"Freelance Proposal Generator App", url:"https://cloudcanvasdigital.gumroad.com/l/freelance-proposal-generator-app", category:"Tools", badge:"New"},
+  {name:"Habit Tracker Gamified Web App", url:"https://cloudcanvasdigital.gumroad.com/l/habit-tracker-gamified-web-app", category:"Tools", badge:"New"},
+  {name:"Invoice Time Tracker Offline Web App", url:"https://cloudcanvasdigital.gumroad.com/l/invoice-time-tracker-offline-web-app", category:"Tools", badge:"New"},
+  {name:"Meditation Breathwork Timer Pro", url:"https://cloudcanvasdigital.gumroad.com/l/meditation-breathwork-timer-pro", category:"Tools", badge:"New"},
+  {name:"Pomodoro Deep Work Timer Suite", url:"https://cloudcanvasdigital.gumroad.com/l/pomodoro-deep-work-timer-suite", category:"Tools", badge:"New"},
+  {name:"Promptsmart Pro Teleprompter", url:"https://cloudcanvasdigital.gumroad.com/l/promptsmart-pro-teleprompter", category:"Tools", badge:"New"},
+  {name:"Scarcity Engine Premium Countdown Timer", url:"https://cloudcanvasdigital.gumroad.com/l/scarcity-engine-premium-countdown-timer", category:"Tools", badge:"New"},
+  {name:"Tip Calculator Split Bill Pro", url:"https://cloudcanvasdigital.gumroad.com/l/tip-calculator-split-bill-pro", category:"Tools", badge:"New"},
+  {name:"Content Roi Calculator Suite", url:"https://cloudcanvasdigital.gumroad.com/l/content-roi-calculator-suite", category:"Tools", badge:"New"},
+  {name:"Freelance Pricing Decision Matrix", url:"https://cloudcanvasdigital.gumroad.com/l/freelance-pricing-decision-matrix", category:"Tools", badge:"New"},
+  {name:"Investment Portfolio Tracker Rebalancer", url:"https://cloudcanvasdigital.gumroad.com/l/investment-portfolio-tracker-rebalancer", category:"Tools", badge:"New"},
+  {name:"Real Estate Deal Analyzer", url:"https://cloudcanvasdigital.gumroad.com/l/real-estate-deal-analyzer", category:"Tools", badge:"New"},
+  {name:"Saas Mrr Churn Forecasting Model", url:"https://cloudcanvasdigital.gumroad.com/l/saas-mrr-churn-forecasting-model", category:"Tools", badge:"New"},
+  {name:"Startup Fundability Score Tool", url:"https://cloudcanvasdigital.gumroad.com/l/startup-fundability-score-tool", category:"Tools", badge:"New"},
+  {name:"White Label Roi Calculator Builder", url:"https://cloudcanvasdigital.gumroad.com/l/white-label-roi-calculator-builder", category:"Tools", badge:"New"},
+
+  // AI
+  {name:"Ai Cold Email Generator Kit", url:"https://cloudcanvasdigital.gumroad.com/l/AI-Cold-Email-Generator-Kit", category:"AI", badge:"New"},
+  {name:"Ai Faceless Youtube Script Generator", url:"https://cloudcanvasdigital.gumroad.com/l/ai-faceless-youtube-script-generator", category:"AI", badge:"New"},
+  {name:"Ai Legal Letter Generator", url:"https://cloudcanvasdigital.gumroad.com/l/ai-legal-letter-generator", category:"AI", badge:"New"},
+  {name:"Ai Real Estate Listing Descriptions Kit", url:"https://cloudcanvasdigital.gumroad.com/l/ai-real-estate-listing-descriptions-kit", category:"AI", badge:"New"},
+  {name:"Ai Social Media Calendar Generator", url:"https://cloudcanvasdigital.gumroad.com/l/ai-social-media-calendar-generator", category:"AI", badge:"New"},
+  {name:"Chatgpt Business Prompts Db", url:"https://cloudcanvasdigital.gumroad.com/l/chatgpt-business-prompts-db", category:"AI", badge:"Featured"},
+  {name:"Claude Artifacts Prompt Vault", url:"https://cloudcanvasdigital.gumroad.com/l/claude-artifacts-prompt-vault", category:"AI", badge:"New"},
+  {name:"Midjourney Mega Vault 10k", url:"https://cloudcanvasdigital.gumroad.com/l/midjourney-mega-vault-10k", category:"AI", badge:"Featured"},
+  {name:"Sora Veo Video Prompt Library", url:"https://cloudcanvasdigital.gumroad.com/l/sora-veo-video-prompt-library", category:"AI", badge:"New"},
+  {name:"Ai Chatbot Starter Kit Claude", url:"https://cloudcanvasdigital.gumroad.com/l/ai-chatbot-starter-kit-claude", category:"AI", badge:"Featured"},
+  {name:"Ai Speech Toast Templates", url:"https://cloudcanvasdigital.gumroad.com/l/ai-speech-toast-templates", category:"AI", badge:"New"},
+  {name:"Custom Gpt Pack 20 Verticals", url:"https://cloudcanvasdigital.gumroad.com/l/custom-gpt-pack-20-verticals", category:"AI", badge:"New"},
+
+  // Design
+  {name:"Canva Template Business Kit", url:"https://cloudcanvasdigital.gumroad.com/l/canva-template-business-kit", category:"Design", badge:"Featured"},
+  {name:"Education Templates", url:"https://cloudcanvasdigital.gumroad.com/l/education-templates", category:"Design", badge:"New"},
+  {name:"Faceless Youtube Thumbnail Backgrounds", url:"https://cloudcanvasdigital.gumroad.com/l/faceless-youtube-thumbnail-backgrounds", category:"Design", badge:"New"},
+  {name:"Wall Art Prints Bundle Ai", url:"https://cloudcanvasdigital.gumroad.com/l/wall-art-prints-bundle-ai", category:"Design", badge:"New"},
+  {name:"Aesthetic Phone Wallpapers Ai", url:"https://cloudcanvasdigital.gumroad.com/l/aesthetic-phone-wallpapers-ai", category:"Design", badge:"New"},
+  {name:"Ai Generated Logo Concepts", url:"https://cloudcanvasdigital.gumroad.com/l/ai-generated-logo-concepts", category:"Design", badge:"New"},
+  {name:"Digital Sticker Pack Ai", url:"https://cloudcanvasdigital.gumroad.com/l/digital-sticker-pack-ai", category:"Design", badge:"New"},
+  {name:"Instagram Carousel Backgrounds", url:"https://cloudcanvasdigital.gumroad.com/l/instagram-carousel-backgrounds", category:"Design", badge:"New"},
+  {name:"Landing Page Html Templates", url:"https://cloudcanvasdigital.gumroad.com/l/landing-page-html-templates", category:"Design", badge:"Featured"},
+  {name:"Local Service Business Website Kit", url:"https://cloudcanvasdigital.gumroad.com/l/local-service-business-website-kit", category:"Design", badge:"Featured"},
+  {name:"Social Media Background Pack Ai", url:"https://cloudcanvasdigital.gumroad.com/l/social-media-background-pack-ai", category:"Design", badge:"New"},
+  {name:"T Shirt Design Vault Ai Vector", url:"https://cloudcanvasdigital.gumroad.com/l/t-shirt-design-vault-ai-vector", category:"Design", badge:"Featured"},
+
+  // Productivity
+  {name:"Finance Pro", url:"https://cloudcanvasdigital.gumroad.com/l/finance-pro", category:"Productivity", badge:"New"},
+  {name:"Fitness Workout Tracker", url:"https://cloudcanvasdigital.gumroad.com/l/fitness-workout-tracker", category:"Productivity", badge:"New"},
+  {name:"Habit Bullet Bundle", url:"https://cloudcanvasdigital.gumroad.com/l/habit-bullet-bundle", category:"Productivity", badge:"New"},
+  {name:"Home Organisation System", url:"https://cloudcanvasdigital.gumroad.com/l/home-organisation-system", category:"Productivity", badge:"New"},
+  {name:"Meal Planner", url:"https://cloudcanvasdigital.gumroad.com/l/Meal-planner", category:"Productivity", badge:"New"},
+  {name:"Parenting Family Organiser", url:"https://cloudcanvasdigital.gumroad.com/l/parenting-family-organiser", category:"Productivity", badge:"New"},
+  {name:"Ramzan Digital Planner 2026", url:"https://cloudcanvasdigital.gumroad.com/l/Ramzan-digital-planner-2026", category:"Productivity", badge:"New"},
+  {name:"Travel Itinerary Planner", url:"https://cloudcanvasdigital.gumroad.com/l/travel-itinerary-planner", category:"Productivity", badge:"New"},
+  {name:"Guided Meditation Audio Library 30 Tracks", url:"https://cloudcanvasdigital.gumroad.com/l/guided-meditation-audio-library-30-tracks", category:"Productivity", badge:"New"},
+
+  // YouTube
+  {name:"Faceless Ig Theme Page Launch Kit", url:"https://cloudcanvasdigital.gumroad.com/l/faceless-ig-theme-page-launch-kit", category:"YouTube", badge:"Featured"},
+  {name:"Faceless Youtube 5K System", url:"https://cloudcanvasdigital.gumroad.com/l/faceless-youtube-5k-system", category:"YouTube", badge:"New"},
+  {name:"Faceless Youtube Channel In A Box", url:"https://cloudcanvasdigital.gumroad.com/l/faceless-youtube-channel-in-a-box", category:"YouTube", badge:"Featured"},
+  {name:"Faceless Youtube Niche Ideas Database", url:"https://cloudcanvasdigital.gumroad.com/l/faceless-youtube-niche-ideas-database", category:"YouTube", badge:"New"},
+  {name:"Quote Account Launch Kit", url:"https://cloudcanvasdigital.gumroad.com/l/quote-account-launch-kit", category:"YouTube", badge:"Featured"},
+  {name:"Youtube Video Hook Scripts", url:"https://cloudcanvasdigital.gumroad.com/l/youtube-video-hook-scripts", category:"YouTube", badge:"New"},
+
+  // E-Commerce
+  {name:"Dropshipping Winning Products Database", url:"https://cloudcanvasdigital.gumroad.com/l/dropshipping-winning-products-database", category:"E-Commerce", badge:"New"},
+  {name:"Etsy Coloring Book Pages Ai", url:"https://cloudcanvasdigital.gumroad.com/l/etsy-coloring-book-pages-ai", category:"E-Commerce", badge:"New"},
+  {name:"Etsy Pod Prompt Pack", url:"https://cloudcanvasdigital.gumroad.com/l/etsy-pod-prompt-pack", category:"E-Commerce", badge:"New"},
+  {name:"Digital Product Store In A Box", url:"https://cloudcanvasdigital.gumroad.com/l/digital-product-store-in-a-box", category:"E-Commerce", badge:"Featured"},
+  {name:"Dropshipping Store Brand Kit", url:"https://cloudcanvasdigital.gumroad.com/l/dropshipping-store-brand-kit", category:"E-Commerce", badge:"Featured"},
+  {name:"Etsy Seller Complete Launch Kit", url:"https://cloudcanvasdigital.gumroad.com/l/etsy-seller-complete-launch-kit", category:"E-Commerce", badge:"Featured"},
+  {name:"Shopify Theme And Conversation Kit", url:"https://cloudcanvasdigital.gumroad.com/l/shopify-theme-and-conversation-kit", category:"E-Commerce", badge:"Featured"},
+
+  // Automation
+  {name:"AI Automation Agency Blueprint", url:"https://cloudcanvasdigital.gumroad.com/l/ai-automation-agency-blueprint", category:"Automation", badge:"Featured"},
+  {name:"Airtable Ai Automation Kit", url:"https://cloudcanvasdigital.gumroad.com/l/airtable-ai-automation-kit", category:"Automation", badge:"Featured"},
+  {name:"Make Zapier Automation Pack", url:"https://cloudcanvasdigital.gumroad.com/l/make-zapier-automation-pack", category:"Automation", badge:"New"},
+  {name:"N8n Self Hosted Ai Agent Kit", url:"https://cloudcanvasdigital.gumroad.com/l/n8n-self-hosted-ai-agent-kit", category:"Automation", badge:"Featured"},
+  {name:"Notion Claude Integration Kit", url:"https://cloudcanvasdigital.gumroad.com/l/notion-claude-integration-kit", category:"Automation", badge:"Featured"},
+  {name:"Web Scraper Starter Kit Python", url:"https://cloudcanvasdigital.gumroad.com/l/web-scraper-starter-kit-python", category:"Automation", badge:"Featured"},
+  {name:"Wordpress Plugin Bundle Custom", url:"https://cloudcanvasdigital.gumroad.com/l/wordpress-plugin-bundle-custom", category:"Automation", badge:"Featured"}
+];
+
+const featuredNames = new Set([
+  "Resumeforge Mega Pack",
+  "AI Automation Agency Blueprint",
+  "Digital Empire Blueprint",
+  "Etsy Seller Complete Launch Kit",
+  "South Asia Resume Kit",
+  "Ats Master Resume Score Checker Pro",
+  "Faceless Youtube Channel In A Box",
+  "Canva Template Business Kit",
+  "365 Social Media Calendar",
+  "Gumroad 10k Playbook",
+  "N8n Self Hosted Ai Agent Kit",
+  "Landing Page Html Templates"
+]);
+
+let activeFilter = "all";
+const searchEl = document.getElementById("search");
+const sortEl = document.getElementById("sort");
+const resultsEl = document.getElementById("results");
+const chips = document.querySelectorAll(".chip");
+
+function escapeHtml(str) {
+  return str.replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+}
+
+function render() {
+  const q = searchEl.value.trim().toLowerCase();
+  const sort = sortEl.value;
+
+  let list = PRODUCTS.filter(p => {
+    const hay = (p.name + " " + p.category).toLowerCase();
+    const matchQ = !q || hay.includes(q);
+    const matchF = activeFilter === "all" || p.category === activeFilter;
+    return matchQ && matchF;
+  });
+
+  if (sort === "az") list.sort((a,b) => a.name.localeCompare(b.name));
+  if (sort === "za") list.sort((a,b) => b.name.localeCompare(a.name));
+  if (sort === "featured") {
+    list.sort((a,b) => {
+      const af = featuredNames.has(a.name) ? 0 : 1;
+      const bf = featuredNames.has(b.name) ? 0 : 1;
+      return af - bf || a.name.localeCompare(b.name);
+    });
+  }
+
+  resultsEl.innerHTML = list.map(p => {
+    const isFeat = featuredNames.has(p.name) || p.badge === "Featured";
+    return `
+      <article class="product">
+        <div class="meta">
+          <span class="pill ${isFeat ? 'featured' : ''}">${isFeat ? 'Featured' : p.badge}</span>
+          <span class="tag">${escapeHtml(p.category)}</span>
+        </div>
+        <h3>${escapeHtml(p.name)}</h3>
+        <p>Premium ${escapeHtml(p.category.toLowerCase())} resource from CloudCanvas Digital. Instant download on Gumroad.</p>
+        <div class="links">
+          <span class="price">Gumroad</span>
+          <a class="btn" href="${p.url}" target="_blank" rel="noopener">Open →</a>
+        </div>
+      </article>
+    `;
+  }).join("") || `<div class="empty">No products found. Try a different search or category.</div>`;
+}
+
+chips.forEach(chip => {
+  chip.addEventListener("click", () => {
+    chips.forEach(c => c.classList.remove("active"));
+    chip.classList.add("active");
+    activeFilter = chip.dataset.filter;
+    render();
+  });
+});
+
+searchEl.addEventListener("input", render);
+sortEl.addEventListener("change", render);
+
+const backtop = document.getElementById("backtop");
+window.addEventListener("scroll", () => {
+  backtop.classList.toggle("show", window.scrollY > 600);
+});
+backtop.addEventListener("click", () => window.scrollTo({top: 0, behavior: "smooth"}));
+
+render();
+</script>
+</body>
+</html>
