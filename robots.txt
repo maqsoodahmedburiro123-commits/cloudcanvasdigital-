@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maqsoodahmedburiro123-commits.github.io/cloudcanvasdigital-/sitemap.xml
+
+Disallow: /404.html
+Disallow: /purchases/
